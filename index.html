@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="/img/icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Water+Brush&family=Whisper&display=swap" rel="stylesheet">
+    <title>Cónicas</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="#hero-description"><img src="./img/cone.png" alt="icon"></a>
+            <ul>
+                <a href="#elipse-description">Elipse</a>
+                <a href="#parabola-description">Párabola</a>
+                <a href="#hiperbola-description">Hiperbola</a>
+                <a href="#circunferencia-description">Circunferencia</a>
+                <a href="">ES</a>
+            </ul>
+    </nav>
+
+    <div class="main-container">
+
+    <Section class="hero-section">
+        <div id="hero-description"> 
+            <h1>Cónicas</h1>
+            <p class="p-description">Las cónicas (o secciones cónicas) son curvas planas que se obtienen al intersectar un cono doble (dos conos unidos por su vértice) con un plano. Estas curvas son fundamentales en matemáticas, geometría analítica y aplicaciones como la óptica, la astronomía y la ingeniería. Fueron estudiadas por primera vez por Apolonio de Perga en la Antigua Grecia, y hoy se describen mediante ecuaciones de segundo grado en el plano cartesiano.
+            </p>
+        </div>
+        <div class="hero-img">
+            <img src="./img/conicas 02.webp" alt="">  
+        </div>
+    </Section>
+
+    <section class="elipse-section">
+        <div id="elipse-description">
+            <h1>Elipse</h1>
+            <p class="p-description">La elipse es una curva plana cerrada y simple que se define como el lugar geométrico de todos los puntos en un plano tales que la suma de sus distancias a dos puntos fijos llamados focos es constante (mayor que la distancia entre focos). Es equivalente a una sección cónica (corte oblicuo de un cono) o la imagen afín de una circunferencia.</p><br>
+            <p>La elipse es una figura geométrica plana formada por todos los puntos cuya suma de distancias a dos puntos fijos, llamados focos, es constante.
+            Tiene dos ejes: el eje mayor, que es el más largo, y el eje menor, que es el más corto.
+            Su forma depende de los valores de aaa, bbb y su posición del centro (h,k)(h, k)(h,k).</p>
+        </div>
+        <img class="img-description"  src="https://www.neurochispas.com/wp-content/uploads/2021/04/elementos-de-una-elipse.png" alt="imagen de un elipse">
+    </section>
+    <section class="characteristics">
+        <h2>Ecuaciones de un Elipse</h2>
+            
+            <table>
+                <!-- Titles-->
+                <tr class="tr-color">
+                    <td  class="tb-tittle">Caso</td>
+                    <td class="tb-tittle">Ecuación</td>
+                    <td class="tb-tittle">Eje mayor</td>
+                    <td class="tb-tittle">Centro</td>
+                    <td class="tb-tittle">Relación</td>
+                    <td class="tb-tittle">Descripción breve</td>
+                </tr>
+
+                <!-- Case 1 -->
+                <tr>
+                    <td>1. Eje horizontal (centro en el origen)</td>
+                    <td><img src="./img/elipse/01-ecuacion.png" alt=""></td>
+                    <td>Horizontal</td>
+                    <td>( 0, 0 )</td>
+                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>La elipse se extiende más a lo largo del eje x.</td>
+                </tr>
+
+                <!-- Case 2 -->
+                <tr>
+                    <td>2. Eje vertical (centro en el origen)</td>
+                    <td><img src="./img/elipse/02-ecuacion.png" alt=""></td>
+                    <td>Vertical</td>
+                    <td>( 0, 0 )</td>
+                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Se alarga hacia arriba y abajo, sobre el eje y.</td>
+                </tr>
+
+                <!-- Case 3 -->
+                <tr>
+                    <td>3. Eje horizontal (centro (h,k))</td>
+                    <td><img src="./img/elipse/03-ecuacion.png" alt=""></td>
+                    <td>Horizontal</td>
+                    <td>( h, k )</td>
+                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Igual a la del origen, pero movida del centro.</td>
+                </tr>
+
+                <!-- Case 4 -->
+                <tr>
+                    <td>4. Eje vertical (centro (h,k))</td>
+                    <td><img src="./img/elipse/04-ecuacion.png" alt=""></td>
+                    <td>Vertical</td>
+                    <td>( h, k )</td>
+                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Elipse centrada en (h,k)(h, k)(h,k) y alargada sobre el eje y.</td>
+                </tr>
+            </table>
+            <p>En las ecuaciones de la Elipse, (h,k) representa el centro de la figura.</p>
+                <ol>
+                    <li> 
+                        h indica el desplazamiento del centro sobre el eje x (izquierda o derecha).
+                    </li>
+                    <li>
+                        k indica el desplazamiento sobre el eje y (arriba o abajo)
+                    </li>
+                </ol>
+            <p> Si h=0 y k=0, la elipse está centrada en el origen. Si cambian, la elipse se traslada a una nueva posición sin alterar su forma.</p>
+    </section>
+
+    <section class="parabola-section">
+        <div id="parabola-description">
+            <h1>Parábola</h1>
+            <p class="p-description">Una parábola es una curva plana, abierta y simétrica que pertenece al grupo de las secciones cónicas. Se obtiene al intersectar un cono doble con un plano paralelo a una de las generatrices del cono. Geométricamente, la parábola se define como el lugar geométrico de los puntos en un plano que están equidistantes de un punto fijo llamado foco y una recta fija llamada directriz.</p><br>
+            <p>La parabola puede depender de su orientación por ejemplo la ecuación para parábolas verticales es: <span>(x-h)^{2} = 4p (y-k)</span>, si la parabola es horizontal la ecuación es: <span> (y-k)^{2}= 4p (x-h)</span> donde (h,k) es el vértice y p es la distancia del vértice al foco.</p>
+        </div>
+        <img class="img-description"  src="https://exponty.com/wp-content/uploads/parabola-vertical-arriba-origen-new.png" alt="imagen una parábola">
+    </section>
+
+    <section class="hiperbola-section">
+        <div id="hiperbola-description">
+            <h1>Hipérbola</h1>
+            <p class="p-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic saepe similique nemo vel dolorum atque ipsa earum dignissimos ratione officia sapiente fugiat, quo cumque ea, laboriosam deleniti corporis nam sed..</p>
+        </div>
+        <img class="img-description"  src="https://exponty.com/wp-content/uploads/hiperbola-vertical-centro-origen-890x1024.png" alt="imagen una hipérbola">
+    </section>
+
+    <section class="circunferencia-section">
+        <div id="circunferencia-description">
+            <h1>Circunferencia</h1>
+            <p class="p-description">La circunferencia de una cónica se obtiene a partir de una sección plana perpendicular  al eje del cono. La circunferencia tiene la misma distancia desde cualquier punto de sus extremos al otro punto llamado centro. Como lo dice Edu.ar (s.f.) la circunferencia se define como una curva cerrada y plana cuyos puntos están a la misma distancia de otro punto llamado centro. En la figura 1 se muestra gráficamente de donde sale la circunferencia a partir de la cónica.</p>
+        </div>
+        <img class="img-description"  src="https://www.neurochispas.com/wp-content/uploads/2021/04/grafica-de-circunferencia.png" alt="imagen una circunferencia">
+    </section>
+    
+    <section class="characteristics">
+        <h2>Características de una circunferencia</h2>
+            <p>En la siguiente tabla se muestran los principales elementos que caracterizan a la circunferencia</p>
+            
+            <table>
+                <!-- Centro -->
+                <tr class="tr-color">
+                    <td class="tb-tittle">Centro</td>
+                    <td>Punto que se encuentra a la misma distancia de los diferentes puntos de la circunferencia</td>
+                    <td><img class="table-img" src="./img/centro.png" alt=""></td>
+                </tr>
+
+                <!-- Radio -->
+                <tr>
+                    <td class="tb-tittle">Radio</td>
+                    <td>Segmento que une el centro con cualquier punto de la recta</td>
+                    <td><img class="table-img" src="./img/Radio.png" alt=""></td>
+                </tr>
+
+                <!-- Diametro -->
+                <tr>
+                    <td class="tb-tittle">Diametro</td>
+                    <td>Recta que pasa por el centro y une los dos puntos opuesto de la circunferencia</td>
+                    <td><img class="table-img" src="./img/Diametro.png" alt=""></td>
+                </tr>
+
+                <!-- Cuerda -->
+                <tr>
+                    <td class="tb-tittle">Cuerda</td>
+                    <td>Recta que une dos puntos de la circunferencia</td>
+                    <td><img class="table-img" src="./img/cuerda.png" alt=""></td>
+                </tr>
+
+                <!-- Recta secante -->
+                <tr>
+                    <td class="tb-tittle">Recta secante</td>
+                    <td>Recta que corta dos puntos de de la circunferencia</td>
+                    <td><img class="table-img" src="./img/recta-secante.png" alt=""></td>
+                </tr>
+
+                <!-- Recta tangente-->
+                <tr>
+                    <td class="tb-tittle">Recta tangente</td>
+                    <td>Recta que toca la circunferencia en un punto y es perpendicular al radio</td>
+                    <td><img class="table-img" src="./img/recta-tangente.png" alt=""></td>
+                </tr>
+            </table>
+            <!--
+            <p><span>Nota.</span> En esta tabla se describen los elementos que caracterizan a la circunferencia.</p>
+            <p>Para entender mejor los conceptos de circunferencia se recomienda ver el siguiente video.</p>
+            
+            youtube video
+            <iframe width="650" height="500" src="https://www.youtube.com/embed/vICf_JIwar4?si=R0oUudXPhovpEyed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+            <h2>Ecuaciones de una circunferencia</h2>
+            <p>La ecuación de una circunferencia está definida según donde se encuentre su centro como se muestra a continuación:</p>
+
+            <table>
+                <tr class="tr-color">
+                    <td  class="tb-tittle">Caso</td>
+                    <td class="tb-tittle">Centro</td>
+                    <td class="tb-tittle">Ecuación</td>
+                </tr>
+
+                <!-- Case 1 -->
+                <tr>
+                    <td>1. Cuando el centro se encuentra en el origen</td>
+                    <td>Cuando el centro se encuentra en el punto (0,0)</td>
+                    <td><img src="./img/circunferencia/01-ecuacion.png" alt=""></td>
+                </tr>
+
+                <!-- Case 2 -->
+                <tr>
+                    <td>2. Cuando el centro se encuentra desplazado del origen</td>
+                    <td>El centro se encuentra en un punto diferente al (0,0)</td>
+                    <td><img src="./img/circunferencia/02-ecuacion.png" alt=""></td>
+                </tr>
+
+                <!-- Case 3 -->
+                <tr>
+                    <td>3. Ecuación canónica </td>
+                    <td>Es una ecuación canónica de una circunferencia porque los términos elevados al cuadrado tienen mismo signo y coeficiente</td>
+                    <td><img src="./img/circunferencia/03-ecuacion.png" alt=""></td>
+                </tr>
+                
+            </table>
+    </section>
+    </div>
+
+    <footer>
+        <span class="footer-span">Integrantes:</span>
+        <p>Estiben Rodríguez Manrique.</p>
+        <p>Johan Andres Rodríguez Martinez.</p>
+        <p>Marco Rodríguez Gómez.</p>
+        <p>Michael Stiven Rodríguez Rocha.</p>
+        <p>Samuel Camilo Rodríguez Romero.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
