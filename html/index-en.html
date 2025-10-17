@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="/math-icon.svg" type="image/x-icon">
+    
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Water+Brush&family=Whisper&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Playfair+Display:ital,wght@1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="#hero-description"><img src="/math-icon.svg" alt="icon"></a>
+            <ul>
+                <a href="#elipse-description">Ellipse</a>
+                <a href="#parabola-description">Parabola</a>
+                <a href="#hiperbola-description">Hyperbole</a>
+                <a href="#circunferencia-description">Circumference</a>
+                <a href="/index.html"><img src="../img/spain.png" alt=""></a>
+            </ul>
+    </nav>
+
+    <div class="main-container">
+
+    <Section class="hero-section">
+        <div id="hero-description"> 
+            <h1>Conics</h1>
+            <p class="p-description">Conics (or conic sections) are flat curves obtained by intersecting a double cone (two cones joined at their apex) with a plane. These curves are fundamental in mathematics, analytical geometry, and applications such as optics, astronomy, and engineering. They were first studied by Apollonius of Perga in Ancient Greece, and today they are described by quadratic equations in the Cartesian plane.
+            </p>
+        </div>
+        <div class="hero-img">
+            <img src="../img/conicas 02.webp" alt="">  
+        </div>
+    </Section>
+
+    <section class="conics-section">
+        <div id="elipse-description">
+            <h1>Ellipse</h1>
+            <p class="p-description">An ellipse is a simple closed plane curve defined as the geometric locus of all points in a plane such that the sum of their distances to two fixed points called foci is constant (greater than the distance between the foci). It is equivalent to a conic section (oblique cut of a cone) or the affine image of a circle.</p><br>
+            <p>An ellipse is a flat geometric figure formed by all points whose sum of distances to two fixed points, called foci, is constant.
+            It has two axes: the major axis, which is the longest, and the minor axis, which is the shortest.
+            Its shape depends on the values of a, b, and its position from the center (h, k).</p>
+        </div>
+        <img class="img-description"  src="https://exponty.com/wp-content/uploads/hiperbola-vertical-centro-origen-890x1024.png" alt="imagen de un elipse">
+    </section>
+    <section class="characteristics">
+        <h2>Equations of an Ellipse</h2>
+            
+            <table>
+                <!-- Titles-->
+                <tr class="tr-color">
+                    <td class="tb-tittle">Case</td>
+                    <td class="tb-tittle">Equation</td>
+                    <td class="tb-tittle">Center</td>
+                    <td class="tb-tittle">Relationship</td>
+                    <td class="tb-tittle">Description</td>
+                </tr>
+
+                <!-- Case 1 -->
+                <tr>
+                    <td>Horizontal axis</td>
+                    <td class="table-img-h"><img src="../img/elipse/ecuacion-horizontal-00.png" alt=""></td>
+                    <td class="equations-p">( 0 , 0 )</td>
+                    <td class="table-img-h"><img src="../img/elipse/01-relacion.png" alt=""></td>
+                    <td>The ellipse extends further along the x-axis.</td>
+                </tr>
+
+                <!-- Case 2 -->
+                <tr>
+                    <td>Vertical axis</td>
+                    <td class="table-img-h"><img src="../img/elipse/ecuacion-vertical-00.png" alt=""></td>
+                    <td class="equations-p">( 0 , 0 )</td>
+                    <td class="table-img-h"><img src="../img/elipse/01-relacion.png" alt=""></td>
+                    <td>It extends up and down along the y-axis.</td>
+                </tr>
+
+                <!-- Case 3 -->
+                <tr>
+                    <td>Horizontal axis</td>
+                    <td class="table-img-h"><img src="../img/elipse/ecuacion-horizontal-hk.png" alt=""></td>
+                    <td class="equations-p">( h , k )</td>
+                    <td class="table-img-h"><img src="../img/elipse/01-relacion.png" alt=""></td>
+                    <td>Same as the original, but moved from the Center.</td>
+                </tr>
+
+                <!-- Case 4 -->
+                <tr>
+                    <td>Vertical axis</td>
+                    <td class="table-img-h"><img src="../img/elipse/ecuacion-vertical-hk.png" alt=""></td>
+                    <td class="equations-p">( h , k )</td>
+                    <td class="table-img-h"><img src="../img/elipse/01-relacion.png" alt=""></td>
+                    <td>Ellipse centered at (h,k) and elongated along the y-axis</td>
+                </tr>
+            </table>
+            <p>In the equations of the ellipse, (h,k) represents the center of the figure.</p>
+                <ol>
+                    <li> 
+                        h indicates the displacement of the center on the x-axis (left or right).
+                    </li>
+                    <li>
+                        k indicates the displacement on the y-axis (up or down)
+                    </li>
+                </ol>
+            <p> If h=0 and k=0, the ellipse is centered at the origin. If they change, the ellipse moves to a new position without altering its shape.</p>
+    </section>
+
+    <section class="conics-section">
+        <div id="parabola-description">
+            <h1>Parabola</h1>
+            <p class="p-description">A parabola is a flat, open, symmetrical curve that belongs to the group of conic sections. It is obtained by intersecting a double cone with a plane parallel to one of the cone's generatrices. Geometrically, the parabola is defined as the geometric locus of points on a plane that are equidistant from a fixed point called the focus and a fixed line called the directrix.</p><br>
+            <p>The parabola may depend on its orientation. For example, the equation for vertical parabolas is: <span>(x-h) ^ 2 = 4p (y-k)</span>. If the parabola is horizontal, the equation is: <span> (y-k) ^ 2= 4p (x-h)</span> where (h,k) is the vertex and p is the distance from the vertex to the focus.</p>
+        </div>
+        <img class="img-description"  src="https://exponty.com/wp-content/uploads/parabola-vertical-arriba-origen-new.png" alt="imagen una parábola">
+    </section>
+
+    <section class="characteristics">
+        <h2>Cases or equations of a parabola</h2>
+        <table>
+            <tr>
+                <td class="tb-tittle">Position</td>
+                <td class="tb-tittle">Opens toward</td>
+                <td class="tb-tittle">Equation</td>
+                <td class="tb-tittle">Guideline</td>
+                <td class="tb-tittle">Vertex</td>
+                <td class="tb-tittle">Spotlight</td>
+            </tr>
+
+            <!--Case 1 -->
+            
+            <tr>
+                <td>Vertical axis</td>
+                <td>Up</td>
+                <td class="equations-p">x^2 = 4py</td>
+                <td class="equations-p">y = - p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( 0 , p )</td>
+            </tr>
+
+            <!--Case 2 -->
+
+            <tr>
+                <td>Vertical axis</td>
+                <td>Below</td>
+                <td class="equations-p">x^2 = -4py</td>
+                <td class="equations-p">y = p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( 0 , - p )</td>
+            </tr>
+
+            <!--Case 3 -->
+
+            <tr>
+                <td>Horizontal axis</td>
+                <td>Right</td>
+                <td class="equations-p">y^2 = 4px</td>
+                <td class="equations-p">x = - p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( p , 0 )</td>  
+            </tr>
+
+            <!--Case 3 -->
+
+            <tr>
+                <td>Horizontal axis</td>
+                <td>Left</td>
+                <td class="equations-p">y^2 = -4px</td>
+                <td class="equations-p">x = p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( - p , 0 )</td>
+            </tr>
+
+            <!--Case 4 -->
+
+            <tr>
+                <td>Vertical axis</td>
+                <td>Up</td>
+                <td class="equations-p">( x - h )^2 = 4p( y - k )</td>
+                <td class="equations-p">y = k - p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h , k + p )</td>
+            </tr>
+
+            <!--Case 5 -->
+
+            <tr>
+                <td>Vertical axis</td>
+                <td>Below</td>
+                <td class="equations-p">( x - h )^2 = -4p( y - k )</td>
+                <td class="equations-p">y = k + p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h , k - p )</td>
+            </tr>
+
+            <!--Case 6 -->
+
+            <tr>
+                <td>Horizontal axis</td>
+                <td>Right</td>
+                <td class="equations-p">( y - k )^2 = 4p( x - h )</td>
+                <td class="equations-p">x = h - p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h + p , k )</td>
+            </tr>
+
+            <!--Case 7 -->
+
+            <tr>
+                <td>Horizontal axis</td>
+                <td>Left</td>
+                <td class="equations-p">( y - k )^2 = -4p( x - h )</td>
+                <td class="equations-p">x = h + p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h - p, k )</td>
+            </tr>
+        </table>
+
+        <p>In the case of the general equation</p>
+
+        <table>
+            <!-- general equation-->
+            <tr>
+                <td class="tb-tittle">Position</td>
+                <td class="tb-tittle">Equation General</td>
+            </tr>
+
+            <tr>
+                <td>Horizontal axis</td>
+                <td class="equations-p">y^2 + Dx + Ey + F = 0</td>
+            </tr>
+
+            <tr>
+                <td>Vertical axis</td>
+                <td class="equations-p">x^2 + Dx + Ey + F = 0</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="conics-section">
+        <div id="hiperbola-description">
+            <h1>Hyperbole</h1>
+            <p class="p-description">According to Luis Castro Perez, "The hyperbola is the geometric locus of all points whose difference in distance to two fixed points, called foci, is constant and equal to 2a"(Lectura Sugerida, La Hipérbola, Luis Castro Perez.)</p>
+        </div>
+        <img class="img-description"  src="https://exponty.com/wp-content/uploads/hiperbola-vertical-centro-origen-890x1024.png" onclick="openFullscreen(this)" alt="imagen una Hyperbole">
+    </section>
+    <section class="characteristics">
+        <h2>Cases o ecuaciones de una Hyperbole</h2>
+        <table>
+            <tr>
+                <td class="tb-tittle">Position</td>
+                <td class="tb-tittle">Equation</td>
+                <td class="tb-tittle">Center</td>
+                <td class="tb-tittle">Vertex</td>
+                <td class="tb-tittle">Spotlight</td>
+                <td class="tb-tittle">B - B</td>
+            </tr>
+
+            <!--WHEN IT HAS AS ITS CENTER (0,0)-->
+            <!--Case 1-->
+            <tr>
+                <td> Horizontal axis</td>
+                <td class="table-img-h"><img src="../img/hiperbola/ecuacion-horizontal-00.png" alt=""></td>
+                <td class="equations-p">( 0 , 0 )</td>
+                <td class="equations-p">( a , 0 ) , ( -a , 0 )</td>
+                <td class="equations-p">( c , 0 ) , ( -c , 0 )</td>
+                <td class="equations-p">( 0 , b ) , ( 0 , -b )</td>
+            </tr>
+            
+            <!--Case 2-->
+            <tr>
+                <td> Vertical axis</td>
+                <td class="table-img-h"><img src="../img/hiperbola/ecuacion-vertical-00.png" alt=""></td>
+                <td class="equations-p">( 0 , 0 )</td>
+                <td class="equations-p">( 0 , a ) , ( 0 , -a )</td>
+                <td class="equations-p">( 0 , c ) , ( 0 , -c )</td>
+                <td class="equations-p">( b , 0 ) , ( b , 0 )</td>
+            </tr>
+
+            <!--WHEN IT HAS AS ITS CENTER (h,k)-->
+            <!--Case 1-->
+
+            <tr>
+                <td> Horizontal axis</td>
+                <td class="table-img-h"><img src="../img/hiperbola/ecuacion-horizontal-hk.png" alt=""></td>
+                <td class="equations-p">( h , k )</td>
+                <td class="equations-p">( h + a, k) , ( h , -a, k )</td>
+                <td class="equations-p">( h + c, k ) , ( h - c, k )</td>
+                <td class="equations-p">( h, k + b ) , ( h,k-b)</td>
+            </tr>
+
+            <!--Case 1-->
+
+            <tr>
+                <td> Vertical axis</td>
+                <td class="table-img-h"><img src="../img/hiperbola/ecuacion-vertical-hk.png" alt=""></td>
+                <td class="equations-p">( h , k )</td>
+                <td class="equations-p">( h, k + a ) , ( h, k - a )</td>
+                <td class="equations-p">( h, k + c ) , ( h, k - c )</td>
+                <td class="equations-p">( h + b, k ) , ( h-b,k)</td>
+            </tr>
+        </table>
+
+        <h2>Asynthota</h2>
+        <table>
+            <tr>
+                <td class="tb-tittle">Position</td>
+                <td class="tb-tittle">Equation</td>
+            </tr>
+
+            <tr>
+                <td>Horizontal axis</td>
+                <td class="table-img-h"><img src="../img/hiperbola/asintota-ecuacion-horizontal.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Vertical axis</td>
+                <td class="table-img-h"><img src="../img/hiperbola/asintota-ecuacion-vertical.png" alt=""></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="conics-section">
+        <div id="circunferencia-description">
+            <h1>Circumference</h1>
+            <p class="p-description">The circumference of a conic is obtained from a plane section perpendicular to the edge of the cone. The circumference has the same distance from any point at its ends to another point called the center. As Edu.ar (n.d.) explains, the circumference is defined as a closed, plane curve whose points are equidistant from another point called the center. Figure 1 shows graphically where the circumference can be found from the conic.</p>
+        </div>
+        <img class="img-description"  src="https://www.neurochispas.com/wp-content/uploads/2021/04/grafica-de-circunferencia.png" alt="imagen una circunferencia">
+    </section>
+    
+    <section class="characteristics">
+        <h2>Characteristics of a circle</h2>
+            <p>The following table shows the main elements that characterize the circumference</p>
+            
+            <table>
+                <!-- Center -->
+                <tr class="tr-color">
+                    <td class="tb-tittle">Center</td>
+                    <td>A point that is equidistant from different points on the circumference.</td>
+                    <td><img class="table-img" src="../img/circunferencia/centro.png" alt=""></td>
+                </tr>
+
+                <!-- Radio -->
+                <tr>
+                    <td class="tb-tittle">Radio</td>
+                    <td>Segment connecting the center with any point on the line.</td>
+                    <td><img class="table-img" src="../img/circunferencia/Radio.png" alt=""></td>
+                </tr>
+
+                <!-- Diameter -->
+                <tr>
+                    <td class="tb-tittle">Diameter</td>
+                    <td>A straight line that passes through the center and connects the two opposite points on the circumference.</td>
+                    <td><img class="table-img" src="../img/circunferencia/Diametro.png" alt=""></td>
+                </tr>
+
+                <!-- Cuerda -->
+                <tr>
+                    <td class="tb-tittle">Rope</td>
+                    <td>Line connecting two points on the circumference.</td>
+                    <td><img class="table-img" src="../img/circunferencia/cuerda.png" alt=""></td>
+                </tr>
+
+                <!-- Recta secante -->
+                <tr>
+                    <td class="tb-tittle">Secant line</td>
+                    <td>Line segment that intersects two points on the circumference.</td>
+                    <td><img class="table-img" src="../img/circunferencia/recta-secante.png" alt=""></td>
+                </tr>
+
+                <!-- Recta tangente-->
+                <tr>
+                    <td class="tb-tittle">Tangent line</td>
+                    <td>A line that touches the circumference at one point and is perpendicular to the radius.</td>
+                    <td><img class="table-img" src="../img/circunferencia/recta-tangente.png" alt=""></td>
+                </tr>
+            </table>
+
+            <h2>Equations of a circle</h2>
+            <p>The equation of a circle is defined according to where its center is located, as shown below:</p>
+
+            <table>
+                <tr class="tr-color">
+                    <td  class="tb-tittle">Case</td>
+                    <td class="tb-tittle">Center</td>
+                    <td class="tb-tittle">Equation</td>
+                </tr>
+
+                <!-- Case 1 -->
+                <tr>
+                    <td>1. When the Center is at the origin</td>
+                    <td>When the center is at the point (0,0)</td>
+                    <td class="table-img-h"><img src="../img/circunferencia/01-ecuacion.png" alt=""></td>
+                </tr>
+
+                <!-- Case 2 -->
+                <tr>
+                    <td>2. When the center is displaced from the origin</td>
+                    <td>The center is located at a point other than (0,0)</td>
+                    <td class="table-img-h"><img src="../img/circunferencia/02-ecuacion.png" alt=""></td>
+                </tr>
+
+                <!-- Case 3 -->
+                <tr>
+                    <td>3. Canonical equation</td>
+                    <td>It is a canonical equation of a circle because the squared terms have the same sign and coefficient.</td>
+                    <td class="table-img-h"><img src="../img/circunferencia/03-ecuacion.png" alt=""></td>
+                </tr>
+                
+            </table>
+    </section>
+    </div>
+
+    <footer>
+        <span class="footer-span">Group members:</span>
+        <p>Estiben Rodríguez Manrique.</p>
+        <p>Johan Andres Rodríguez Martinez.</p>
+        <p>Marco Rodríguez Gómez.</p>
+        <p>Michael Stiven Rodríguez Rocha.</p>
+        <p>Samuel Camilo Rodríguez Romero.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

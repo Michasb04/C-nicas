@@ -25,3 +25,15 @@ sr.reveal('.hero-img',{delay:500, origin:'right', reset:false});
 //Footer animations
 sr.reveal('footer',{delay:50,origin:'bottom', reset:false});
 // Show borderbox deppending to page status 
+
+// Show borderbox deppending to page status
+
+function openFullscreen(img) {
+    if (img.requestFullscreen) {
+        img.requestFullscreen();
+    }else if (img.webkitRequestFullscreen) { /* Safari */
+    img.webkitRequestFullscreen();
+    } else if (img.msRequestFullscreen) { /* IE11 */
+    img.msRequestFullscreen();
+}
+}

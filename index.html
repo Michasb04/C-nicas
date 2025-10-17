@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="/img/icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/math-icon.svg" type="image/x-icon">
+    
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Water+Brush&family=Whisper&display=swap" rel="stylesheet">
-    <title>Cónicas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Playfair+Display:ital,wght@1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="nav-bar">
-        <a href="#hero-description"><img src="./img/cone.png" alt="icon"></a>
+        <a href="#hero-description"><img src="/math-icon.svg" alt="icon"></a>
             <ul>
                 <a href="#elipse-description">Elipse</a>
                 <a href="#parabola-description">Párabola</a>
                 <a href="#hiperbola-description">Hiperbola</a>
                 <a href="#circunferencia-description">Circunferencia</a>
-                <a href="">ES</a>
+                <a href="./html/index-en.html"><img src="./img/usa.png" alt=""></a>
             </ul>
     </nav>
 
@@ -35,7 +37,7 @@
         </div>
     </Section>
 
-    <section class="elipse-section">
+    <section class="conics-section">
         <div id="elipse-description">
             <h1>Elipse</h1>
             <p class="p-description">La elipse es una curva plana cerrada y simple que se define como el lugar geométrico de todos los puntos en un plano tales que la suma de sus distancias a dos puntos fijos llamados focos es constante (mayor que la distancia entre focos). Es equivalente a una sección cónica (corte oblicuo de un cono) o la imagen afín de una circunferencia.</p><br>
@@ -53,7 +55,6 @@
                 <tr class="tr-color">
                     <td class="tb-tittle">Caso</td>
                     <td class="tb-tittle">Ecuación</td>
-                    <td class="tb-tittle">Eje mayor</td>
                     <td class="tb-tittle">Centro</td>
                     <td class="tb-tittle">Relación</td>
                     <td class="tb-tittle">Descripción breve</td>
@@ -61,41 +62,37 @@
 
                 <!-- Case 1 -->
                 <tr>
-                    <td>1. Eje horizontal (centro en el origen)</td>
-                    <td><img src="./img/elipse/01-ecuacion.png" alt=""></td>
-                    <td>Horizontal</td>
-                    <td>( 0, 0 )</td>
-                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Eje horizontal</td>
+                    <td class="table-img-h"><img src="./img/elipse/ecuacion-horizontal-00.png" alt=""></td>
+                    <td class="equations-p">( 0 , 0 )</td>
+                    <td class="table-img-h"><img src="./img/elipse/01-relacion.png" alt=""></td>
                     <td>La elipse se extiende más a lo largo del eje x.</td>
                 </tr>
 
                 <!-- Case 2 -->
                 <tr>
-                    <td>2. Eje vertical (centro en el origen)</td>
-                    <td><img src="./img/elipse/02-ecuacion.png" alt=""></td>
-                    <td>Vertical</td>
-                    <td>( 0, 0 )</td>
-                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Eje vertical</td>
+                    <td class="table-img-h"><img src="./img/elipse/ecuacion-vertical-00.png" alt=""></td>
+                    <td class="equations-p">( 0 , 0 )</td>
+                    <td class="table-img-h"><img src="./img/elipse/01-relacion.png" alt=""></td>
                     <td>Se alarga hacia arriba y abajo, sobre el eje y.</td>
                 </tr>
 
                 <!-- Case 3 -->
                 <tr>
-                    <td>3. Eje horizontal (centro (h,k))</td>
-                    <td><img src="./img/elipse/03-ecuacion.png" alt=""></td>
-                    <td>Horizontal</td>
-                    <td>( h, k )</td>
-                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Eje horizontal</td>
+                    <td class="table-img-h"><img src="./img/elipse/ecuacion-horizontal-hk.png" alt=""></td>
+                    <td class="equations-p">( h , k )</td>
+                    <td class="table-img-h"><img src="./img/elipse/01-relacion.png" alt=""></td>
                     <td>Igual a la del origen, pero movida del centro.</td>
                 </tr>
 
                 <!-- Case 4 -->
                 <tr>
-                    <td>4. Eje vertical (centro (h,k))</td>
-                    <td><img src="./img/elipse/04-ecuacion.png" alt=""></td>
-                    <td>Vertical</td>
-                    <td>( h, k )</td>
-                    <td><img src="./img/elipse/01-relacion.png" alt=""></td>
+                    <td>Eje vertical</td>
+                    <td class="table-img-h"><img src="./img/elipse/ecuacion-vertical-hk.png" alt=""></td>
+                    <td class="equations-p">( h , k )</td>
+                    <td class="table-img-h"><img src="./img/elipse/01-relacion.png" alt=""></td>
                     <td>Elipse centrada en (h,k)(h, k)(h,k) y alargada sobre el eje y.</td>
                 </tr>
             </table>
@@ -111,83 +108,221 @@
             <p> Si h=0 y k=0, la elipse está centrada en el origen. Si cambian, la elipse se traslada a una nueva posición sin alterar su forma.</p>
     </section>
 
-    <section class="parabola-section">
+    <section class="conics-section">
         <div id="parabola-description">
             <h1>Parábola</h1>
             <p class="p-description">Una parábola es una curva plana, abierta y simétrica que pertenece al grupo de las secciones cónicas. Se obtiene al intersectar un cono doble con un plano paralelo a una de las generatrices del cono. Geométricamente, la parábola se define como el lugar geométrico de los puntos en un plano que están equidistantes de un punto fijo llamado foco y una recta fija llamada directriz.</p><br>
-            <p>La parabola puede depender de su orientación por ejemplo la ecuación para parábolas verticales es: <span>(x-h)^{2} = 4p (y-k)</span>, si la parabola es horizontal la ecuación es: <span> (y-k)^{2}= 4p (x-h)</span> donde (h,k) es el vértice y p es la distancia del vértice al foco.</p>
+            <p>La parabola puede depender de su orientación por ejemplo la ecuación para parábolas verticales es: <span>(x-h) ^ 2 = 4p (y-k)</span>, si la parabola es horizontal la ecuación es: <span> (y-k) ^ 2= 4p (x-h)</span> donde (h,k) es el vértice y p es la distancia del vértice al foco.</p>
         </div>
         <img class="img-description"  src="https://exponty.com/wp-content/uploads/parabola-vertical-arriba-origen-new.png" alt="imagen una parábola">
     </section>
 
     <section class="characteristics">
-        <h2>Ecuaciones de una Parábola</h2>
+        <h2>Casos o ecuaciones de una Parábola</h2>
+        <p>Casos de la parábola</p>
         <table>
             <tr>
                 <td class="tb-tittle">Posición</td>
                 <td class="tb-tittle">Abre hacia</td>
                 <td class="tb-tittle">Ecuación</td>
                 <td class="tb-tittle">Directriz</td>
-                <td class="tb-tittle">Vertice</td>
+                <td class="tb-tittle">Vértice</td>
                 <td class="tb-tittle">Foco</td>
             </tr>
 
             <!--Case 1 -->
             
             <tr>
-                <td>Vertical</td>
+                <td>Eje Vertical</td>
                 <td>Arriba</td>
-                <td>#</td>
-                <td>y = -p</td>
-                <td>v = (0, 0)</td>
-                <td>f = (0, p)</td>
+                <td class="equations-p">x^2 = 4py</td>
+                <td class="equations-p">y = - p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( 0 , p )</td>
             </tr>
 
             <!--Case 2 -->
 
             <tr>
-                <td>Vertical</td>
+                <td>Eje Vertical</td>
                 <td>Abajo</td>
-                <td>#</td>
-                <td>y = p</td>
-                <td>v = (0, 0)</td>
-                <td>f = (0, -p)</td>
+                <td class="equations-p">x^2 = -4py</td>
+                <td class="equations-p">y = p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( 0 , - p )</td>
             </tr>
 
             <!--Case 3 -->
 
             <tr>
-                <td>Horizontal</td>
+                <td>Eje Horizontal</td>
                 <td>Derecha</td>
-                <td>#</td>
-                <td>x = -p</td>
-                <td>v = ( 0, 0)</td>
-                <td>f = ( p, 0)</td>  
+                <td class="equations-p">y^2 = 4px</td>
+                <td class="equations-p">x = - p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( p , 0 )</td>  
             </tr>
 
             <!--Case 3 -->
 
             <tr>
-                <td>Horizontal</td>
+                <td>Eje Horizontal</td>
                 <td>Izquierda</td>
-                <td>#</td>
-                <td>x = p</td>
-                <td>v = ( 0, 0)</td>
-                <td>f = ( -p, 0)</td>
+                <td class="equations-p">y^2 = -4px</td>
+                <td class="equations-p">x = p</td>
+                <td class="equations-p">v = ( 0 , 0 )</td>
+                <td class="equations-p">f = ( - p , 0 )</td>
             </tr>
 
+            <!--Case 4 -->
+
+            <tr>
+                <td>Eje Vertical</td>
+                <td>Arriba</td>
+                <td class="equations-p">( x - h )^2 = 4p( y - k )</td>
+                <td class="equations-p">y = k - p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h , k + p )</td>
+            </tr>
+
+            <!--Case 5 -->
+
+            <tr>
+                <td>Eje Vertical</td>
+                <td>Abajo</td>
+                <td class="equations-p">( x - h )^2 = -4p( y - k )</td>
+                <td class="equations-p">y = k + p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h , k - p )</td>
+            </tr>
+
+            <!--Case 6 -->
+
+            <tr>
+                <td>Eje Horizontal</td>
+                <td>Derecha</td>
+                <td class="equations-p">( y - k )^2 = 4p( x - h )</td>
+                <td class="equations-p">x = h - p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h + p , k )</td>
+            </tr>
+
+            <!--Case 7 -->
+
+            <tr>
+                <td>Eje Horizontal</td>
+                <td>Izquierda</td>
+                <td class="equations-p">( y - k )^2 = -4p( x - h )</td>
+                <td class="equations-p">x = h + p</td>
+                <td class="equations-p">v ( k , h )</td>
+                <td class="equations-p">f ( h - p, k )</td>
+            </tr>
+        </table>
+
+        <p>En el caso de la ecuación general</p>
+
+        <table>
+            <!-- general equation-->
+            <tr>
+                <td class="tb-tittle">Posición</td>
+                <td class="tb-tittle">Ecuación General</td>
+            </tr>
+
+            <tr>
+                <td>Eje Horizontal</td>
+                <td class="equations-p">y^2 + Dx + Ey + F = 0</td>
+            </tr>
+
+            <tr>
+                <td>Eje Vertical</td>
+                <td class="equations-p">x^2 + Dx + Ey + F = 0</td>
+            </tr>
         </table>
     </section>
 
-    <section class="hiperbola-section">
+    <section class="conics-section">
         <div id="hiperbola-description">
             <h1>Hipérbola</h1>
-            <p class="p-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic saepe similique nemo vel dolorum atque ipsa earum dignissimos ratione officia sapiente fugiat, quo cumque ea, laboriosam deleniti corporis nam sed..</p>
+            <p class="p-description">Según Luis Castro Perez, “La hipérbola es el lugar geométrico de todos los puntos cuya diferencia de distancias a dos puntos fijos, llamados focos , es constante e igual a 2a” (Lectura Sugerida, La Hipérbola, Luis Castro Perez.).</p>
         </div>
-        <img class="img-description"  src="https://exponty.com/wp-content/uploads/hiperbola-vertical-centro-origen-890x1024.png" alt="imagen una hipérbola">
+        <img class="img-description"  src="https://exponty.com/wp-content/uploads/hiperbola-vertical-centro-origen-890x1024.png" onclick="openFullscreen(this)" alt="imagen una hipérbola">
+    </section>
+    <section class="characteristics">
+        <h2>Casos o ecuaciones de una Hipérbola</h2>
+        <table>
+            <tr>
+                <td class="tb-tittle">Posición</td>
+                <td class="tb-tittle">Ecuación</td>
+                <td class="tb-tittle">Centro</td>
+                <td class="tb-tittle">vértice</td>
+                <td class="tb-tittle">Foco</td>
+                <td class="tb-tittle">B - B</td>
+            </tr>
+
+            <!--WHEN IT HAS AS ITS CENTER (0,0)-->
+            <!--Case 1-->
+            <tr>
+                <td> Eje Horizontal</td>
+                <td class="table-img-h"><img src="./img/hiperbola/ecuacion-horizontal-00.png" alt=""></td>
+                <td class="equations-p">( 0 , 0 )</td>
+                <td class="equations-p">( a , 0 ) , ( -a , 0 )</td>
+                <td class="equations-p">( c , 0 ) , ( -c , 0 )</td>
+                <td class="equations-p">( 0 , b ) , ( 0 , -b )</td>
+            </tr>
+            
+            <!--Case 2-->
+            <tr>
+                <td> Eje Vertical</td>
+                <td class="table-img-h"><img src="./img/hiperbola/ecuacion-vertical-00.png" alt=""></td>
+                <td class="equations-p">( 0 , 0 )</td>
+                <td class="equations-p">( 0 , a ) , ( 0 , -a )</td>
+                <td class="equations-p">( 0 , c ) , ( 0 , -c )</td>
+                <td class="equations-p">( b , 0 ) , ( b , 0 )</td>
+            </tr>
+
+            <!--WHEN IT HAS AS ITS CENTER (h,k)-->
+            <!--Case 1-->
+
+            <tr>
+                <td> Eje Horizontal</td>
+                <td class="table-img-h"><img src="./img/hiperbola/ecuacion-horizontal-hk.png" alt=""></td>
+                <td class="equations-p">( h , k )</td>
+                <td class="equations-p">( h + a, k) , ( h , -a, k )</td>
+                <td class="equations-p">( h + c, k ) , ( h - c, k )</td>
+                <td class="equations-p">( h, k + b ) , ( h,k-b)</td>
+            </tr>
+
+            <!--Case 1-->
+
+            <tr>
+                <td> Eje Vertical</td>
+                <td class="table-img-h"><img src="./img/hiperbola/ecuacion-vertical-hk.png" alt=""></td>
+                <td class="equations-p">( h , k )</td>
+                <td class="equations-p">( h, k + a ) , ( h, k - a )</td>
+                <td class="equations-p">( h, k + c ) , ( h, k - c )</td>
+                <td class="equations-p">( h + b, k ) , ( h-b,k)</td>
+            </tr>
+        </table>
+
+        <h2>Asíntota</h2>
+        <table>
+            <tr>
+                <td class="tb-tittle">Posición</td>
+                <td class="tb-tittle">Ecuación</td>
+            </tr>
+
+            <tr>
+                <td>Eje Horizontal</td>
+                <td class="table-img-h"><img src="./img/hiperbola/asintota-ecuacion-horizontal.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Eje Vertical</td>
+                <td class="table-img-h"><img src="./img/hiperbola/asintota-ecuacion-vertical.png" alt=""></td>
+            </tr>
+        </table>
     </section>
 
-    <section class="circunferencia-section">
+    <section class="conics-section">
         <div id="circunferencia-description">
             <h1>Circunferencia</h1>
             <p class="p-description">La circunferencia de una cónica se obtiene a partir de una sección plana perpendicular  al eje del cono. La circunferencia tiene la misma distancia desde cualquier punto de sus extremos al otro punto llamado centro. Como lo dice Edu.ar (s.f.) la circunferencia se define como una curva cerrada y plana cuyos puntos están a la misma distancia de otro punto llamado centro. En la figura 1 se muestra gráficamente de donde sale la circunferencia a partir de la cónica.</p>
@@ -204,50 +339,44 @@
                 <tr class="tr-color">
                     <td class="tb-tittle">Centro</td>
                     <td>Punto que se encuentra a la misma distancia de los diferentes puntos de la circunferencia</td>
-                    <td><img class="table-img" src="./img/centro.png" alt=""></td>
+                    <td><img class="table-img" src="./img/circunferencia/centro.png" alt=""></td>
                 </tr>
 
                 <!-- Radio -->
                 <tr>
                     <td class="tb-tittle">Radio</td>
                     <td>Segmento que une el centro con cualquier punto de la recta</td>
-                    <td><img class="table-img" src="./img/Radio.png" alt=""></td>
+                    <td><img class="table-img" src="./img/circunferencia/Radio.png" alt=""></td>
                 </tr>
 
                 <!-- Diametro -->
                 <tr>
                     <td class="tb-tittle">Diametro</td>
                     <td>Recta que pasa por el centro y une los dos puntos opuesto de la circunferencia</td>
-                    <td><img class="table-img" src="./img/Diametro.png" alt=""></td>
+                    <td><img class="table-img" src="./img/circunferencia/Diametro.png" alt=""></td>
                 </tr>
 
                 <!-- Cuerda -->
                 <tr>
                     <td class="tb-tittle">Cuerda</td>
                     <td>Recta que une dos puntos de la circunferencia</td>
-                    <td><img class="table-img" src="./img/cuerda.png" alt=""></td>
+                    <td><img class="table-img" src="./img/circunferencia/cuerda.png" alt=""></td>
                 </tr>
 
                 <!-- Recta secante -->
                 <tr>
                     <td class="tb-tittle">Recta secante</td>
                     <td>Recta que corta dos puntos de de la circunferencia</td>
-                    <td><img class="table-img" src="./img/recta-secante.png" alt=""></td>
+                    <td><img class="table-img" src="./img/circunferencia/recta-secante.png" alt=""></td>
                 </tr>
 
                 <!-- Recta tangente-->
                 <tr>
                     <td class="tb-tittle">Recta tangente</td>
                     <td>Recta que toca la circunferencia en un punto y es perpendicular al radio</td>
-                    <td><img class="table-img" src="./img/recta-tangente.png" alt=""></td>
+                    <td><img class="table-img" src="./img/circunferencia/recta-tangente.png" alt=""></td>
                 </tr>
             </table>
-            <!--
-            <p><span>Nota.</span> En esta tabla se describen los elementos que caracterizan a la circunferencia.</p>
-            <p>Para entender mejor los conceptos de circunferencia se recomienda ver el siguiente video.</p>
-            
-            youtube video
-            <iframe width="650" height="500" src="https://www.youtube.com/embed/vICf_JIwar4?si=R0oUudXPhovpEyed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
             <h2>Ecuaciones de una circunferencia</h2>
             <p>La ecuación de una circunferencia está definida según donde se encuentre su centro como se muestra a continuación:</p>
@@ -263,21 +392,21 @@
                 <tr>
                     <td>1. Cuando el centro se encuentra en el origen</td>
                     <td>Cuando el centro se encuentra en el punto (0,0)</td>
-                    <td><img src="./img/circunferencia/01-ecuacion.png" alt=""></td>
+                    <td class="table-img-h"><img src="./img/circunferencia/01-ecuacion.png" alt=""></td>
                 </tr>
 
                 <!-- Case 2 -->
                 <tr>
                     <td>2. Cuando el centro se encuentra desplazado del origen</td>
                     <td>El centro se encuentra en un punto diferente al (0,0)</td>
-                    <td><img src="./img/circunferencia/02-ecuacion.png" alt=""></td>
+                    <td class="table-img-h"><img src="./img/circunferencia/02-ecuacion.png" alt=""></td>
                 </tr>
 
                 <!-- Case 3 -->
                 <tr>
                     <td>3. Ecuación canónica </td>
                     <td>Es una ecuación canónica de una circunferencia porque los términos elevados al cuadrado tienen mismo signo y coeficiente</td>
-                    <td><img src="./img/circunferencia/03-ecuacion.png" alt=""></td>
+                    <td class="table-img-h"><img src="./img/circunferencia/03-ecuacion.png" alt=""></td>
                 </tr>
                 
             </table>
