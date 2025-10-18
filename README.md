@@ -1,5 +1,5 @@
-📘** Proyecto: Cónicas — Representaciones, Ecuaciones y Traducción Bilingüe**
-🧮 **Descripción General**
+📘 Proyecto: Cónicas — Representaciones, Ecuaciones y Traducción Bilingüe
+🧮 Descripción General
 
 Este proyecto es una página web educativa desarrollada como trabajo universitario, cuyo objetivo es presentar las cónicas (circunferencia, elipse, parábola e hipérbola) junto con sus ecuaciones canónicas, tablas de valores e imágenes representativas.
 Además, incluye una funcionalidad interactiva que permite cambiar el idioma de la información entre español e inglés, facilitando la comprensión para diferentes tipos de usuarios.
