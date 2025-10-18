@@ -66,7 +66,7 @@ Implementación simple y educativa de las ecuaciones y tablas.
 
 👩‍💻 Autor
 
-Nombre: Michael Stievn Rodriguez Rocha <br>
+Nombre: Michael Stiven Rodriguez Rocha <br>
 Carrera: Ingeniería de Software. <br>
 Materia: Fundamentos de matemáticas. <br>
 Institución: Areandina <br>
