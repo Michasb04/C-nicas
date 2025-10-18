@@ -1,4 +1,4 @@
-📘 Proyecto: Cónicas — Representaciones, Ecuaciones y Traducción Bilingüe
+📘 Proyecto: Cónicas — Representaciones, Ecuaciones y Traducción Bilingüe <br><br>
 🧮 Descripción General
 
 Este proyecto es una página web educativa desarrollada como trabajo universitario, cuyo objetivo es presentar las cónicas (circunferencia, elipse, parábola e hipérbola) junto con sus ecuaciones canónicas, tablas de valores e imágenes representativas.
@@ -60,13 +60,14 @@ Implementación simple y educativa de las ecuaciones y tablas.
 
 📸 Vista Previa
 
-(Aquí puedes insertar una captura de pantalla del sitio si lo deseas)
-![Vista previa del sitio](./images/vista-previa.png)
+<img width="1706" height="935" alt="image" src="https://github.com/user-attachments/assets/bd88f0bc-ecc4-462b-8030-52094725e1b1" />
+
+
 
 👩‍💻 Autor
 
-Nombre: Michael Stievn Rodriguez Rocha
-Carrera: Ingeniería de Software.
-Materia: Fundamentos de matemáticas.
-Institución: Areandina
-Año: 2025
+Nombre: Michael Stievn Rodriguez Rocha <br>
+Carrera: Ingeniería de Software. <br>
+Materia: Fundamentos de matemáticas. <br>
+Institución: Areandina <br>
+Año: 2025 <br>
